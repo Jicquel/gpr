@@ -7,7 +7,7 @@
   </submenu>
 
   <documentation_file>
-     <name>gprbuild_ug.html</name>
+     <name>index.html</name>
      <descr>Gprbuild User's Guide</descr>
      <category>GNAT</category>
      <menu>/Help/Gprbuild/Gprbuild User's Guide</menu>

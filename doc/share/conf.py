@@ -16,9 +16,9 @@ import latex_elements
 # this conf.py
 
 DOCS = {
-    'gprbuild_ug': {
+    'index': {
         'title': u'GPR Tools User\'s Guide'}}
-doc_name = 'gprbuild_ug'
+doc_name = 'index'
 
 # Then retrieve the source directory
 root_source_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

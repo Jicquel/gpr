@@ -15,7 +15,7 @@ ALLSPHINXOPTS   = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) \
 		  -d $(BUILDDIR)/$*/doctrees \
 		  $(SOURCEDIR)
 FMT_LIST=html txt info pdf
-DOC_NAME=gprbuild_ug
+DOC_NAME=index
 CP=cp
 
 WORK_DIR=__python__
