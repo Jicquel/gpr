@@ -102,5 +102,7 @@ texinfo_documents = [
 
 
 def setup(app):
+    # Change the sourcedir programmatically because Read the Docs always call it with `.`
+    app.srcdir = os.path.join (root_source_dir)
     app.add_lexer('ada', ada_pygments.AdaLexer)
     app.add_lexer('gpr', ada_pygments.GNATProjectLexer)
