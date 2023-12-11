@@ -49,7 +49,7 @@ def get_gpr_version():
 # Exclude sources that are not part of the current documentation
 exclude_patterns = []
 for d in os.listdir(root_source_dir):
-    if d not in ('share', doc_name, doc_name + '.rst'):
+    if d not in ('share', 'gprbuild_ug', 'gprbuild_ug' + '.rst', doc_name, doc_name + '.rst'):
         exclude_patterns.append(d)
         print('ignoring %s' % d)
 
