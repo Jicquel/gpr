@@ -53,7 +53,10 @@ for d in os.listdir(root_source_dir):
         exclude_patterns.append(d)
         print('ignoring %s' % d)
 
-extensions = ['sphinx_rtd_theme']
+extensions = [
+    'sphinx_rtd_theme',
+    'sphinx_search.extension',
+]
 templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = doc_name
